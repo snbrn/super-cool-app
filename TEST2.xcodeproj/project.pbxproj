@@ -7,25 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		FAF713331CBE30650012019C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF713321CBE30650012019C /* AppDelegate.swift */; };
-		FAF713351CBE30650012019C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF713341CBE30650012019C /* ViewController.swift */; };
-		FAF713381CBE30650012019C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAF713361CBE30650012019C /* Main.storyboard */; };
-		FAF7133A1CBE30650012019C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAF713391CBE30650012019C /* Assets.xcassets */; };
-		FAF7133D1CBE30650012019C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAF7133B1CBE30650012019C /* LaunchScreen.storyboard */; };
+		FA1AFDA91CC4D03900C39F90 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1AFDA81CC4D03900C39F90 /* AppDelegate.swift */; };
+		FA1AFDAB1CC4D03900C39F90 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1AFDAA1CC4D03900C39F90 /* ViewController.swift */; };
+		FA1AFDAE1CC4D03900C39F90 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA1AFDAC1CC4D03900C39F90 /* Main.storyboard */; };
+		FA1AFDB11CC4D03900C39F90 /* TEST2.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FA1AFDAF1CC4D03900C39F90 /* TEST2.xcdatamodeld */; };
+		FA1AFDB31CC4D03900C39F90 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA1AFDB21CC4D03900C39F90 /* Assets.xcassets */; };
+		FA1AFDB61CC4D03900C39F90 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA1AFDB41CC4D03900C39F90 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		FAF7132F1CBE30640012019C /* Super Cool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Super Cool.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		FAF713321CBE30650012019C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		FAF713341CBE30650012019C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		FAF713371CBE30650012019C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		FAF713391CBE30650012019C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		FAF7133C1CBE30650012019C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		FAF7133E1CBE30650012019C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA1AFDA51CC4D03900C39F90 /* TEST2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TEST2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA1AFDA81CC4D03900C39F90 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FA1AFDAA1CC4D03900C39F90 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FA1AFDAD1CC4D03900C39F90 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FA1AFDB01CC4D03900C39F90 /* TEST2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TEST2.xcdatamodel; sourceTree = "<group>"; };
+		FA1AFDB21CC4D03900C39F90 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FA1AFDB51CC4D03900C39F90 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FA1AFDB71CC4D03900C39F90 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		FAF7132C1CBE30640012019C /* Frameworks */ = {
+		FA1AFDA21CC4D03900C39F90 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -35,71 +37,73 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		FAF713261CBE30640012019C = {
+		FA1AFD9C1CC4D03900C39F90 = {
 			isa = PBXGroup;
 			children = (
-				FAF713311CBE30650012019C /* Super Cool */,
-				FAF713301CBE30640012019C /* Products */,
+				FA1AFDA71CC4D03900C39F90 /* TEST2 */,
+				FA1AFDA61CC4D03900C39F90 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		FAF713301CBE30640012019C /* Products */ = {
+		FA1AFDA61CC4D03900C39F90 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				FAF7132F1CBE30640012019C /* Super Cool.app */,
+				FA1AFDA51CC4D03900C39F90 /* TEST2.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		FAF713311CBE30650012019C /* Super Cool */ = {
+		FA1AFDA71CC4D03900C39F90 /* TEST2 */ = {
 			isa = PBXGroup;
 			children = (
-				FAF713321CBE30650012019C /* AppDelegate.swift */,
-				FAF713341CBE30650012019C /* ViewController.swift */,
-				FAF713361CBE30650012019C /* Main.storyboard */,
-				FAF713391CBE30650012019C /* Assets.xcassets */,
-				FAF7133B1CBE30650012019C /* LaunchScreen.storyboard */,
-				FAF7133E1CBE30650012019C /* Info.plist */,
+				FA1AFDA81CC4D03900C39F90 /* AppDelegate.swift */,
+				FA1AFDAA1CC4D03900C39F90 /* ViewController.swift */,
+				FA1AFDAC1CC4D03900C39F90 /* Main.storyboard */,
+				FA1AFDB21CC4D03900C39F90 /* Assets.xcassets */,
+				FA1AFDB41CC4D03900C39F90 /* LaunchScreen.storyboard */,
+				FA1AFDB71CC4D03900C39F90 /* Info.plist */,
+				FA1AFDAF1CC4D03900C39F90 /* TEST2.xcdatamodeld */,
 			);
-			path = "Super Cool";
+			path = TEST2;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		FAF7132E1CBE30640012019C /* Super Cool */ = {
+		FA1AFDA41CC4D03900C39F90 /* TEST2 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FAF713411CBE30650012019C /* Build configuration list for PBXNativeTarget "Super Cool" */;
+			buildConfigurationList = FA1AFDBA1CC4D03900C39F90 /* Build configuration list for PBXNativeTarget "TEST2" */;
 			buildPhases = (
-				FAF7132B1CBE30640012019C /* Sources */,
-				FAF7132C1CBE30640012019C /* Frameworks */,
-				FAF7132D1CBE30640012019C /* Resources */,
+				FA1AFDA11CC4D03900C39F90 /* Sources */,
+				FA1AFDA21CC4D03900C39F90 /* Frameworks */,
+				FA1AFDA31CC4D03900C39F90 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "Super Cool";
-			productName = "Super Cool";
-			productReference = FAF7132F1CBE30640012019C /* Super Cool.app */;
+			name = TEST2;
+			productName = TEST2;
+			productReference = FA1AFDA51CC4D03900C39F90 /* TEST2.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		FAF713271CBE30640012019C /* Project object */ = {
+		FA1AFD9D1CC4D03900C39F90 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0730;
 				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = alanver;
 				TargetAttributes = {
-					FAF7132E1CBE30640012019C = {
+					FA1AFDA41CC4D03900C39F90 = {
 						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 332TYP3DUK;
 					};
 				};
 			};
-			buildConfigurationList = FAF7132A1CBE30640012019C /* Build configuration list for PBXProject "Super Cool" */;
+			buildConfigurationList = FA1AFDA01CC4D03900C39F90 /* Build configuration list for PBXProject "TEST2" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -107,54 +111,55 @@
 				en,
 				Base,
 			);
-			mainGroup = FAF713261CBE30640012019C;
-			productRefGroup = FAF713301CBE30640012019C /* Products */;
+			mainGroup = FA1AFD9C1CC4D03900C39F90;
+			productRefGroup = FA1AFDA61CC4D03900C39F90 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				FAF7132E1CBE30640012019C /* Super Cool */,
+				FA1AFDA41CC4D03900C39F90 /* TEST2 */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		FAF7132D1CBE30640012019C /* Resources */ = {
+		FA1AFDA31CC4D03900C39F90 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FAF7133D1CBE30650012019C /* LaunchScreen.storyboard in Resources */,
-				FAF7133A1CBE30650012019C /* Assets.xcassets in Resources */,
-				FAF713381CBE30650012019C /* Main.storyboard in Resources */,
+				FA1AFDB61CC4D03900C39F90 /* LaunchScreen.storyboard in Resources */,
+				FA1AFDB31CC4D03900C39F90 /* Assets.xcassets in Resources */,
+				FA1AFDAE1CC4D03900C39F90 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		FAF7132B1CBE30640012019C /* Sources */ = {
+		FA1AFDA11CC4D03900C39F90 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FAF713351CBE30650012019C /* ViewController.swift in Sources */,
-				FAF713331CBE30650012019C /* AppDelegate.swift in Sources */,
+				FA1AFDAB1CC4D03900C39F90 /* ViewController.swift in Sources */,
+				FA1AFDB11CC4D03900C39F90 /* TEST2.xcdatamodeld in Sources */,
+				FA1AFDA91CC4D03900C39F90 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		FAF713361CBE30650012019C /* Main.storyboard */ = {
+		FA1AFDAC1CC4D03900C39F90 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				FAF713371CBE30650012019C /* Base */,
+				FA1AFDAD1CC4D03900C39F90 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		FAF7133B1CBE30650012019C /* LaunchScreen.storyboard */ = {
+		FA1AFDB41CC4D03900C39F90 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				FAF7133C1CBE30650012019C /* Base */,
+				FA1AFDB51CC4D03900C39F90 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -162,7 +167,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		FAF7133F1CBE30650012019C /* Debug */ = {
+		FA1AFDB81CC4D03900C39F90 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -207,7 +212,7 @@
 			};
 			name = Debug;
 		};
-		FAF713401CBE30650012019C /* Release */ = {
+		FA1AFDB91CC4D03900C39F90 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -245,24 +250,24 @@
 			};
 			name = Release;
 		};
-		FAF713421CBE30650012019C /* Debug */ = {
+		FA1AFDBB1CC4D03900C39F90 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = "Super Cool/Info.plist";
+				INFOPLIST_FILE = TEST2/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "alanver.Super-Cool";
+				PRODUCT_BUNDLE_IDENTIFIER = alanver.TEST2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
-		FAF713431CBE30650012019C /* Release */ = {
+		FA1AFDBC1CC4D03900C39F90 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = "Super Cool/Info.plist";
+				INFOPLIST_FILE = TEST2/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "alanver.Super-Cool";
+				PRODUCT_BUNDLE_IDENTIFIER = alanver.TEST2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -270,24 +275,37 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		FAF7132A1CBE30640012019C /* Build configuration list for PBXProject "Super Cool" */ = {
+		FA1AFDA01CC4D03900C39F90 /* Build configuration list for PBXProject "TEST2" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FAF7133F1CBE30650012019C /* Debug */,
-				FAF713401CBE30650012019C /* Release */,
+				FA1AFDB81CC4D03900C39F90 /* Debug */,
+				FA1AFDB91CC4D03900C39F90 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FAF713411CBE30650012019C /* Build configuration list for PBXNativeTarget "Super Cool" */ = {
+		FA1AFDBA1CC4D03900C39F90 /* Build configuration list for PBXNativeTarget "TEST2" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FAF713421CBE30650012019C /* Debug */,
-				FAF713431CBE30650012019C /* Release */,
+				FA1AFDBB1CC4D03900C39F90 /* Debug */,
+				FA1AFDBC1CC4D03900C39F90 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		FA1AFDAF1CC4D03900C39F90 /* TEST2.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FA1AFDB01CC4D03900C39F90 /* TEST2.xcdatamodel */,
+			);
+			currentVersion = FA1AFDB01CC4D03900C39F90 /* TEST2.xcdatamodel */;
+			path = TEST2.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
-	rootObject = FAF713271CBE30640012019C /* Project object */;
+	rootObject = FA1AFD9D1CC4D03900C39F90 /* Project object */;
 }
